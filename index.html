@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya-Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            /* margin: 0; */
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(28, 3, 51);
+            color: rgb(240, 143, 17);
+            font-family: 'Pixelify Sans', cursive;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(71, 5, 138);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(253, 4, 191);
+            font-size: 1.04rem;
+        }
+
+
+        /* .leftsection{
+            display: flex;
+            background-color: chartreuse;
+            justify-content: space-around;
+            margin: 23px;
+            width: 30%;
+        }
+        .rightsection{
+            display: flex;
+            background-color: chartreuse;
+            justify-content: space-around;
+            margin: 23px;
+            width: 30%; */
+        /* } */
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 56px 0;
+        }
+
+        .firstsection div {
+            width: 21%;
+        }
+
+        .leftsection {
+            /* background-color: rgb(119, 5, 5); */
+            font-size: 40px;
+        }
+
+        .rightsectionimg {
+            width: 23%;
+            margin: 50px 0;
+            /* color: rgb(137, 235, 25); */
+        }
+
+        .name {
+            color: rgb(178, 154, 243);
+            font-size: x-large;
+        }
+
+        #element {
+            color: rgb(238, 65, 123);
+        }
+
+        .secondsection h1 {
+            font-size: 150%;
+            margin: 0;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            position: relative;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            color: white;
+            margin: 0 120px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        /* .secondsection .vertical {
+            height: 93px;
+            width: 10px;
+            color: rgb(235, 230, 225);
+
+        } */
+
+
+        .gray {
+            /* margin: 0; */
+            /* padding: 0; */
+            color: gray;
+        }
+
+        main hr {
+            margin: 0;
+            color: blueviolet
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: #576ef1;
+            ;
+            width: 158px;
+            font-size: 9px;
+        }
+
+        .image-top {
+            height: 45px;
+            position: relative;
+            top: -50px;
+            left: -9px;
+        }
+
+        #flex {
+            background-color: #25224a;
+            height: 30px;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+            display: flex;
+            list-style: none;
+
+        }
+
+        /* .footer{
+            display:flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            display: flex;
+        } */
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+        #about{
+            display: flex;
+            padding-left: 20%;
+        }
+        .head{
+            font-size: 30px;
+        }
+        .myimage{
+            border-radius: 20%;
+        }
+        footer{
+            font-size: 12px;
+            background-color: rgb(145, 208, 212);
+            text-align: center;
+            color: rgb(110, 25, 247);
+        }
+        #hi{
+            color: rgb(18, 226, 147);
+        }
+        html{
+            scroll-behavior: smooth;
+            
+        }
+
+        /* .li{ */
+        /* color: rgb(200, 241, 13); */
+        /* } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Satya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#flex">Upcoming projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <span id="hi"></span>
+                <br>
+                my name is 
+                <span class="name">Satyashree MIshra</span>
+                <div>
+                    I am a <span id="element"></span>
+                </div>
+                <!-- <span id="element"></span>  -->
+
+            </div>
+
+            </div>
+            <div class=" rightsection">
+                <img src="image2.png" alt="hahahaha" width="110%">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have done so far?</span>
+            <h1>work experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="image4.png">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut voluptas nobis ab accusamus
+                        modi. Animi qui repellat vero nihil, odio rerum amet doloremque facere illo, soluta dolores
+                        quae. Magnam?
+                    </div>
+                </div>
+                <!-- <div class="vertical-title">
+                    css developer (2023-2024)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias explicabo, inventore quidem
+                    consectetur pariatur deserunt, vitae non eum facilis labore cumque molestias! Architecto aut commodi
+                    minus veritatis nam eligendi corporis!
+                </div> -->
+                <div class="vertical">
+                    <img class="image-top" src="image5.jpeg">
+                    <div class="vertical-title">
+                        CSS Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut voluptas nobis ab accusamus
+                        modi. Animi qui repellat vero nihil, odio rerum amet doloremque facere illo, soluta dolores
+                        quae. Magnam?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image6.png">
+                    <div class="vertical-title">
+                        Adobe Photoshop (2019-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut voluptas nobis ab accusamus
+                        modi. Animi qui repellat vero nihil, odio rerum amet doloremque facere illo, soluta dolores
+                        quae. Magnam?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image7.jpeg">
+                    <div class="vertical-title">
+                        GTA Gaming (2018-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut voluptas nobis ab accusamus
+                        modi. Animi qui repellat vero nihil, odio rerum amet doloremque facere illo, soluta dolores
+                        quae. Magnam?
+                    </div>
+                </div>
+                <!-- <div class="vertical"></div>
+                <div class="vertical"></div> -->
+            </div>
+        </section>
+    </main>
+    <!-- <footer> -->
+    <div id="flex">
+        <div class="footer-first">
+            Satya's upcoming tasks-:
+        </div>
+        <div class="footer-second">
+            <li>Javascript</li>
+        </div>
+        <div class="footer-third">
+            <li>Node.js</li>
+        </div>
+        <div class="footer-fourth">
+            <li>React.js</li>
+        </div>
+    </div>
+    <hr>
+    <div id="about">
+        <div class="ctc">
+            <div  class="head">
+                ABOUT-:
+        </div>
+            <div>
+                My self Satyashree MIshra
+            </div>
+            <div>
+                I am from Bhadrak,Odisha
+            </div>
+            <div>
+                I have just started the journey of werb devlopment,Its my first full fledged website.
+                <div>
+
+                    Its my 2nd year of
+                    engineering in the OUTR,Bhubaneswar.
+                </div> 
+            </div>
+            <div>
+                In this website I use HTML,CSS and JAVA SCRIPT(slightly)
+            </div>
+        </div>
+        <div class="image">
+            <img src="myimage.webp" height="190px" class="myimage" alt="">
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Satyashree Mishra. All rights are rsesrved. | Contact me <a href="email">satyashreemishra0@gmail.com</a>
+        instagram-
+        <a href="instagram">_s_a_t_y_a_.s._.h._.r._.e._.e_</a>
+        whatsapp no.
+        <a href="whatsapp">8763387806</a>
+    </footer>
+    <!-- </footer> -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['photo editor','Gamer', 'web designer','web Devloper'],
+            typeSpeed: 50,
+        });
+        var typed = new Typed('#hi', {
+            strings: ['HELLO,','HI,', 'NAMASTE,'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
